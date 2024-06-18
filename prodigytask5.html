@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <div class="container">
+        <div class="location-input">
+            <input type="text" placeholder="Enter location">
+            <button id="getWeatherBtn">Get Weather</button>
+        </div>
+        <div class="weather-info">
+            <h2>Weather in <span id="locationName">[Location]</span></h2>
+            <div class="weather-item">
+                <img src="https://img.icons8.com/color/48/000000/partly-cloudy-day.png" alt="Weather Icon">
+                <p id="weather">Weather: Sunny</p>
+            </div>
+            <div class="weather-item">
+                <img src="https://img.icons8.com/color/48/000000/thermometer.png" alt="Temperature Icon">
+                <p id="temperature">Temperature: 25°C</p>
+            </div>
+            <div class="weather-item">
+                <img src="https://img.icons8.com/color/48/000000/humidity.png" alt="Humidity Icon">
+                <p id="humidity">Humidity: 60%</p>
+            </div>
+            <div class="weather-item">
+                <img src="https://img.icons8.com/color/48/000000/wind.png" alt="Wind Speed Icon">
+                <p id="windSpeed">Wind Speed: 15 km/h</p>
+            </div>
+        </div>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>

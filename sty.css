@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://cdn.wallpapersafari.com/5/94/unQymT.jpg') center/cover; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
+}
+
+.location-input {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.location-input input {
+    padding: 14px;
+    font-size: 16px;
+    width: 70%;
+    border: none;
+    border-radius: 20px; 
+    background: rgba(255, 255, 255, 0.7); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+    text-align: center; 
+}
+
+.location-input input:focus {
+    outline: none;
+    background: #fff; 
+    box-shadow: 0 0 12px rgba(0, 123, 255, 0.8); 
+}
+
+.location-input button {
+    padding: 14px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background: #2980b9; 
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease; 
+}
+
+.location-input button:hover {
+    background: #6dd5fa; 
+    transform: scale(1.05);
+}
+
+.location-input button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); 
+}
+
+.weather-info {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+    text-align: left;
+    color: #333; /* Dark text */
+}
+
+.weather-info.show {
+    display: block;
+}
+
+.weather-info h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #2980b9; 
+}
+
+.weather-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.weather-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.weather-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #666;
+}
